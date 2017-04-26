@@ -9,7 +9,13 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *messageLabel;
+
+@property (weak, nonatomic) IBOutlet UIView *viewBackground;
+@property (weak, nonatomic) IBOutlet UIImageView *imgWeatherIcon;
+@property (weak, nonatomic) IBOutlet UILabel *lblTemperature;
+@property (weak, nonatomic) IBOutlet UILabel *lblDescription;
+@property (weak, nonatomic) IBOutlet UILabel *lblPrecipitation;
+@property (weak, nonatomic) IBOutlet UILabel *lblHumidity;
 
 @end
 
