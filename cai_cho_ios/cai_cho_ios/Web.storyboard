@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vbv-m0-yuY">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web-->
+        <scene sceneID="gNT-6M-vf1">
+            <objects>
+                <viewController title="Web" id="vbv-m0-yuY" customClass="WebController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IBj-xw-z3O"/>
+                        <viewControllerLayoutGuide type="bottom" id="x4Q-iP-XfE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PX4-06-d6S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cVs-st-66H">
+                                <rect key="frame" x="0.0" y="70" width="375" height="597"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lto-Xd-dtz">
+                                <rect key="frame" x="0.0" y="20" width="375" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="SHO-bJ-fwE">
+                                        <nil key="title"/>
+                                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="http://" borderStyle="roundedRect" placeholder="http://" minimumFontSize="17" clearButtonMode="whileEditing" id="yWM-zW-SK3" userLabel="urlField">
+                                            <rect key="frame" x="46" y="13" width="278" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" returnKeyType="go"/>
+                                            <connections>
+                                                <action selector="loadLocation:" destination="vbv-m0-yuY" eventType="editingDidEndOnExit" id="bkY-jv-87j"/>
+                                            </connections>
+                                        </textField>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Gjc-Nn-1HM" userLabel="refreshBtn"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LzV-eB-FBV">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <items>
+                                    <barButtonItem enabled="NO" systemItem="play" id="l2S-gr-laS" userLabel="shortenBtn"/>
+                                    <barButtonItem title="Tap arrow to shorten" id="mWL-hr-J7U" userLabel="shortenLbl">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </barButtonItem>
+                                    <barButtonItem title="Copy" id="l7z-fJ-qaI" userLabel="clipBoardBtn">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x4Q-iP-XfE" firstAttribute="top" secondItem="LzV-eB-FBV" secondAttribute="bottom" id="44o-hE-nUF"/>
+                            <constraint firstItem="Lto-Xd-dtz" firstAttribute="top" secondItem="IBj-xw-z3O" secondAttribute="bottom" id="6vU-Di-9ml"/>
+                            <constraint firstItem="cVs-st-66H" firstAttribute="bottom" secondItem="LzV-eB-FBV" secondAttribute="bottom" id="9cI-Pn-mYO"/>
+                            <constraint firstAttribute="trailing" secondItem="LzV-eB-FBV" secondAttribute="trailing" id="CHm-sE-282"/>
+                            <constraint firstItem="cVs-st-66H" firstAttribute="leading" secondItem="PX4-06-d6S" secondAttribute="leading" id="R7E-S7-ipt"/>
+                            <constraint firstItem="LzV-eB-FBV" firstAttribute="height" secondItem="PX4-06-d6S" secondAttribute="height" multiplier="1.5/20" id="n2Z-qp-ewB"/>
+                            <constraint firstAttribute="trailing" secondItem="Lto-Xd-dtz" secondAttribute="trailing" id="n3o-u2-kh1"/>
+                            <constraint firstItem="Lto-Xd-dtz" firstAttribute="leading" secondItem="PX4-06-d6S" secondAttribute="leading" id="nBl-cX-l9t"/>
+                            <constraint firstItem="Lto-Xd-dtz" firstAttribute="height" secondItem="PX4-06-d6S" secondAttribute="height" multiplier="1.5/20" id="rIa-7d-hVv"/>
+                            <constraint firstAttribute="trailing" secondItem="cVs-st-66H" secondAttribute="trailing" id="taS-A5-dbl"/>
+                            <constraint firstItem="cVs-st-66H" firstAttribute="top" secondItem="Lto-Xd-dtz" secondAttribute="bottom" id="wdi-eY-tyI"/>
+                            <constraint firstItem="LzV-eB-FBV" firstAttribute="leading" secondItem="PX4-06-d6S" secondAttribute="leading" id="zgp-V4-EUM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clipBoardBtn" destination="l7z-fJ-qaI" id="aPQ-0j-cCl"/>
+                        <outlet property="shortLabel" destination="mWL-hr-J7U" id="1mz-rc-dXJ"/>
+                        <outlet property="shortenBtn" destination="l2S-gr-laS" id="XXi-gv-6dl"/>
+                        <outlet property="url" destination="yWM-zW-SK3" id="CWD-Bn-zwO"/>
+                        <outlet property="webView" destination="cVs-st-66H" id="7HC-ii-lxS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YG9-hG-MXP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12" y="17.541229385307346"/>
+        </scene>
+    </scenes>
+</document>
