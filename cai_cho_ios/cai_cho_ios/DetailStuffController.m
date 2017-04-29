@@ -35,6 +35,7 @@
         [self.stuffPopoverController dismissPopoverAnimated:YES];
     }
 }
+
 -(void)configureView
 {
     if (self.detailItem != nil) {
@@ -43,4 +44,13 @@
     }
 }
 
+-(IBAction)changedDetail:(id)sender
+{
+    if (sender == self.nameField) {
+        self.detailItem.name = self.nameField.text;
+    }else if (sender == self.locationField){
+        self.detailItem.location = self.locationField.text;
+    }
+    [self.detailItem postDidChangeNotification];
+}
 @end

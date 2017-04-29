@@ -17,6 +17,11 @@
 
 @implementation StuffController
 
+-(void) dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (void)awakeFromNib{
     things = [@[
                 [[Item alloc] initWithName:@"Gort" location:@"den"],
@@ -25,6 +30,7 @@
                 [[Item alloc] initWithName:@"Sad Robot USB hub" location:@"office"],
                 [[Item alloc] initWithName:@"Solar Powered Bunny" location:@"office"]
                 ] mutableCopy];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(whatsitDidChangeNotification:) name:kWhatsitDidChangeNotification object:nil];
     [super awakeFromNib];
 }
 
@@ -88,6 +94,15 @@
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }else if(editingStyle == UITableViewCellEditingStyleInsert){
         
+    }
+}
+
+-(void)whatsitDidChangeNotification:(NSNotification *)notification
+{
+    NSUInteger index = [things indexOfObject:notification.object];
+    if (index != NSNotFound) {
+        NSIndexPath *path = [NSIndexPath indexPathForRow:index inSection:0];
+        [self.tableView reloadRowsAtIndexPaths:@[path] withRowAnimation:UITableViewRowAnimationNone];
     }
 }
 @end

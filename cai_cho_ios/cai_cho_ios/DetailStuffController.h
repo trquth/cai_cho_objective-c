@@ -14,5 +14,5 @@
 @property (weak, nonatomic) Item *detailItem;
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
 @property (weak, nonatomic) IBOutlet UITextField *locationField;
-
+-(IBAction)changedDetail:(id)sender;
 @end

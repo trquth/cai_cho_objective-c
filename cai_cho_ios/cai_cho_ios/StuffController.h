@@ -10,4 +10,6 @@
 
 @interface StuffController : UITableViewController
 
+-(void) whatsitDidChangeNotification:(NSNotification*) notification;
+
 @end

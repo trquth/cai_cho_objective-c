@@ -10,7 +10,12 @@
 
 @implementation Item
 
-- (id)initWithName:  (NSString*) name location:(NSString*) location
+- (void) postDidChangeNotification
+{
+    [[NSNotificationCenter defaultCenter] postNotificationName:kWhatsitDidChangeNotification object:self];
+}
+
+- (id) initWithName:  (NSString*) name location:(NSString*) location
 {
     self = [super init];
     if (self) {
@@ -19,4 +24,7 @@
     }
     return self;
 }
+
+
+
 @end
