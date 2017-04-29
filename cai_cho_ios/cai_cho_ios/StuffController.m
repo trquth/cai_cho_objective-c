@@ -30,6 +30,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIBarButtonItem *addButton =[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
+    self.navigationItem.rightBarButtonItem = addButton;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -59,6 +62,32 @@
     }
 }
 
+-(void)insertNewObject:(id)sender
+{
+    if (!things) {
+        things = [[NSMutableArray alloc] init];
+    }
+    static unsigned int itemNumber = 1;
+    NSString *newItemName = [NSString stringWithFormat:@"My Item %u", itemNumber++];
+    Item *newItem = [[Item alloc] initWithName:newItemName location:nil];
+    [things insertObject:newItem atIndex:0];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+}
 
+-(BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
 
+-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (editingStyle == UITableViewCellEditingStyleDelete)
+    {
+        [things removeObjectAtIndex:indexPath.row];
+        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    }else if(editingStyle == UITableViewCellEditingStyleInsert){
+        
+    }
+}
 @end
