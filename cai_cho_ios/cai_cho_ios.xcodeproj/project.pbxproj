@@ -7,25 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E03204000CD951EAB8CCC14 /* Pods_cai_cho_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A345B033D02B552FE8A4E4A /* Pods_cai_cho_ios.framework */; };
+		845D18AC1EBA369900835445 /* ProductCallAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D18AB1EBA369900835445 /* ProductCallAPI.m */; };
+		8471330F1EC15979002460BA /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471330E1EC15979002460BA /* MainTabBarViewController.m */; };
+		847133121EC16110002460BA /* ShopNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847133111EC16110002460BA /* ShopNavigationViewController.m */; };
+		847133151EC1AAFD002460BA /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 847133141EC1AAFD002460BA /* Product.m */; };
+		847133181EC1AE02002460BA /* ShopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847133171EC1AE02002460BA /* ShopTableViewController.m */; };
+		8471331D1EC1D6A5002460BA /* ProductItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8471331C1EC1D6A5002460BA /* ProductItemTableViewCell.m */; };
 		849E1B151EA87488003C2D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E1B141EA87488003C2D16 /* main.m */; };
 		849E1B181EA87488003C2D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E1B171EA87488003C2D16 /* AppDelegate.m */; };
-		849E1B1B1EA87488003C2D16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E1B1A1EA87488003C2D16 /* ViewController.m */; };
 		849E1B1E1EA87488003C2D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E1B1C1EA87488003C2D16 /* Main.storyboard */; };
 		849E1B201EA87488003C2D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849E1B1F1EA87488003C2D16 /* Assets.xcassets */; };
 		849E1B231EA87488003C2D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E1B211EA87488003C2D16 /* LaunchScreen.storyboard */; };
+		84DB928F1EC6892000BCC8F1 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB928E1EC6892000BCC8F1 /* ProductDetailViewController.m */; };
+		84DFC0711EC47262009C881E /* ProductItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DFC0701EC47262009C881E /* ProductItemCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A345B033D02B552FE8A4E4A /* Pods_cai_cho_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cai_cho_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845D18A81EBA34C000835445 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		845D18AA1EBA369900835445 /* ProductCallAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCallAPI.h; sourceTree = "<group>"; };
+		845D18AB1EBA369900835445 /* ProductCallAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCallAPI.m; sourceTree = "<group>"; };
+		8471330D1EC15979002460BA /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		8471330E1EC15979002460BA /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		847133101EC16110002460BA /* ShopNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopNavigationViewController.h; sourceTree = "<group>"; };
+		847133111EC16110002460BA /* ShopNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopNavigationViewController.m; sourceTree = "<group>"; };
+		847133131EC1AAFD002460BA /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		847133141EC1AAFD002460BA /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		847133161EC1AE02002460BA /* ShopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopTableViewController.h; sourceTree = "<group>"; };
+		847133171EC1AE02002460BA /* ShopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopTableViewController.m; sourceTree = "<group>"; };
+		8471331B1EC1D6A5002460BA /* ProductItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductItemTableViewCell.h; sourceTree = "<group>"; };
+		8471331C1EC1D6A5002460BA /* ProductItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductItemTableViewCell.m; sourceTree = "<group>"; };
 		849E1B101EA87488003C2D16 /* cai_cho_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cai_cho_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E1B141EA87488003C2D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849E1B161EA87488003C2D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		849E1B171EA87488003C2D16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		849E1B191EA87488003C2D16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		849E1B1A1EA87488003C2D16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		849E1B1D1EA87488003C2D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849E1B1F1EA87488003C2D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849E1B221EA87488003C2D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849E1B241EA87488003C2D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DB928D1EC6892000BCC8F1 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		84DB928E1EC6892000BCC8F1 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		84DFC0701EC47262009C881E /* ProductItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductItemCell.xib; sourceTree = "<group>"; };
+		A080D089C758481E211D9982 /* Pods-cai_cho_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cai_cho_ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cai_cho_ios/Pods-cai_cho_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		C99A19957B9F9016F4E7022D /* Pods-cai_cho_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cai_cho_ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-cai_cho_ios/Pods-cai_cho_ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +58,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E03204000CD951EAB8CCC14 /* Pods_cai_cho_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65274E677217EB450AD88E92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A080D089C758481E211D9982 /* Pods-cai_cho_ios.debug.xcconfig */,
+				C99A19957B9F9016F4E7022D /* Pods-cai_cho_ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		841CB4C41EBB0C5A00E866B5 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				8471331E1EC1D6AD002460BA /* product cell */,
+				847133161EC1AE02002460BA /* ShopTableViewController.h */,
+				847133171EC1AE02002460BA /* ShopTableViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		841CB4C81EBB113200E866B5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				847133131EC1AAFD002460BA /* Product.h */,
+				847133141EC1AAFD002460BA /* Product.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		845D18A41EBA308200835445 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				845D18A91EBA365500835445 /* callAPI */,
+				845D18A61EBA346000835445 /* constants */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		845D18A51EBA32B500835445 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84DB928C1EC688E500BCC8F1 /* product_detail */,
+				841CB4C41EBB0C5A00E866B5 /* home */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		845D18A61EBA346000835445 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				845D18A81EBA34C000835445 /* Constants.h */,
+			);
+			name = constants;
+			sourceTree = "<group>";
+		};
+		845D18A91EBA365500835445 /* callAPI */ = {
+			isa = PBXGroup;
+			children = (
+				845D18AA1EBA369900835445 /* ProductCallAPI.h */,
+				845D18AB1EBA369900835445 /* ProductCallAPI.m */,
+			);
+			name = callAPI;
+			sourceTree = "<group>";
+		};
+		8471330C1EC158EB002460BA /* tabar and navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8471330D1EC15979002460BA /* MainTabBarViewController.h */,
+				8471330E1EC15979002460BA /* MainTabBarViewController.m */,
+				847133101EC16110002460BA /* ShopNavigationViewController.h */,
+				847133111EC16110002460BA /* ShopNavigationViewController.m */,
+			);
+			name = "tabar and navigation";
+			sourceTree = "<group>";
+		};
+		8471331E1EC1D6AD002460BA /* product cell */ = {
+			isa = PBXGroup;
+			children = (
+				8471331B1EC1D6A5002460BA /* ProductItemTableViewCell.h */,
+				8471331C1EC1D6A5002460BA /* ProductItemTableViewCell.m */,
+				84DFC0701EC47262009C881E /* ProductItemCell.xib */,
+			);
+			name = "product cell";
+			sourceTree = "<group>";
+		};
 		849E1B071EA87488003C2D16 = {
 			isa = PBXGroup;
 			children = (
 				849E1B121EA87488003C2D16 /* cai_cho_ios */,
 				849E1B111EA87488003C2D16 /* Products */,
+				65274E677217EB450AD88E92 /* Pods */,
+				AE4EBB476F5B49F5044ABA87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +170,10 @@
 		849E1B121EA87488003C2D16 /* cai_cho_ios */ = {
 			isa = PBXGroup;
 			children = (
-				849E1B1A1EA87488003C2D16 /* ViewController.m */,
-				849E1B191EA87488003C2D16 /* ViewController.h */,
+				8471330C1EC158EB002460BA /* tabar and navigation */,
+				841CB4C81EBB113200E866B5 /* models */,
+				845D18A51EBA32B500835445 /* controllers */,
+				845D18A41EBA308200835445 /* utilities */,
 				849E1B161EA87488003C2D16 /* AppDelegate.h */,
 				849E1B171EA87488003C2D16 /* AppDelegate.m */,
 				849E1B1C1EA87488003C2D16 /* Main.storyboard */,
@@ -79,6 +193,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		84DB928C1EC688E500BCC8F1 /* product_detail */ = {
+			isa = PBXGroup;
+			children = (
+				84DB928D1EC6892000BCC8F1 /* ProductDetailViewController.h */,
+				84DB928E1EC6892000BCC8F1 /* ProductDetailViewController.m */,
+			);
+			name = product_detail;
+			sourceTree = "<group>";
+		};
+		AE4EBB476F5B49F5044ABA87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A345B033D02B552FE8A4E4A /* Pods_cai_cho_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849E1B271EA87488003C2D16 /* Build configuration list for PBXNativeTarget "cai_cho_ios" */;
 			buildPhases = (
+				62B5CCB671743F397F9F30AF /* [CP] Check Pods Manifest.lock */,
 				849E1B0C1EA87488003C2D16 /* Sources */,
 				849E1B0D1EA87488003C2D16 /* Frameworks */,
 				849E1B0E1EA87488003C2D16 /* Resources */,
+				8E2C0D010860DFD1001A4391 /* [CP] Embed Pods Frameworks */,
+				3169E11A48A0C03B6C13BEEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DFC0711EC47262009C881E /* ProductItemCell.xib in Resources */,
 				849E1B231EA87488003C2D16 /* LaunchScreen.storyboard in Resources */,
 				849E1B201EA87488003C2D16 /* Assets.xcassets in Resources */,
 				849E1B1E1EA87488003C2D16 /* Main.storyboard in Resources */,
@@ -146,13 +281,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3169E11A48A0C03B6C13BEEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cai_cho_ios/Pods-cai_cho_ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B5CCB671743F397F9F30AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E2C0D010860DFD1001A4391 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cai_cho_ios/Pods-cai_cho_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		849E1B0C1EA87488003C2D16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849E1B1B1EA87488003C2D16 /* ViewController.m in Sources */,
+				8471331D1EC1D6A5002460BA /* ProductItemTableViewCell.m in Sources */,
+				847133151EC1AAFD002460BA /* Product.m in Sources */,
+				8471330F1EC15979002460BA /* MainTabBarViewController.m in Sources */,
+				84DB928F1EC6892000BCC8F1 /* ProductDetailViewController.m in Sources */,
+				847133121EC16110002460BA /* ShopNavigationViewController.m in Sources */,
 				849E1B181EA87488003C2D16 /* AppDelegate.m in Sources */,
+				845D18AC1EBA369900835445 /* ProductCallAPI.m in Sources */,
+				847133181EC1AE02002460BA /* ShopTableViewController.m in Sources */,
 				849E1B151EA87488003C2D16 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +462,7 @@
 		};
 		849E1B281EA87488003C2D16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A080D089C758481E211D9982 /* Pods-cai_cho_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7WDZSU6A45;
@@ -285,6 +475,7 @@
 		};
 		849E1B291EA87488003C2D16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99A19957B9F9016F4E7022D /* Pods-cai_cho_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7WDZSU6A45;
