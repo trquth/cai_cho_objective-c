@@ -50,6 +50,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047089571F29D06F002CE252 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		047089581F29D07D002CE252 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				047089591F29D099002CE252 /* FirstScreen */,
+			);
+			name = Screen;
+			sourceTree = "<group>";
+		};
+		047089591F29D099002CE252 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				849E1B1C1EA87488003C2D16 /* Main.storyboard */,
+				849E1B211EA87488003C2D16 /* LaunchScreen.storyboard */,
+				0419E4191F283F3600C7C129 /* ViewController.m */,
+				0419E4181F283F3600C7C129 /* ViewController.h */,
+				0470895A1F29D0C6002CE252 /* Model */,
+			);
+			name = FirstScreen;
+			sourceTree = "<group>";
+		};
+		0470895A1F29D0C6002CE252 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0419E41E1F28508700C7C129 /* Common.h */,
+				0419E41F1F28508700C7C129 /* Common.m */,
+				0419E4211F2854AC00C7C129 /* Person.h */,
+				0419E4221F2854AC00C7C129 /* Person.m */,
+				0419E41B1F2848B200C7C129 /* PrintStart.h */,
+				0419E41C1F2848B200C7C129 /* PrintStart.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0470895B1F29D436002CE252 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				849E1B241EA87488003C2D16 /* Info.plist */,
+				849E1B1F1EA87488003C2D16 /* Assets.xcassets */,
+				849E1B171EA87488003C2D16 /* AppDelegate.m */,
+				849E1B161EA87488003C2D16 /* AppDelegate.h */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		849E1B071EA87488003C2D16 = {
 			isa = PBXGroup;
 			children = (
@@ -69,21 +120,10 @@
 		849E1B121EA87488003C2D16 /* cai_cho_ios */ = {
 			isa = PBXGroup;
 			children = (
-				849E1B161EA87488003C2D16 /* AppDelegate.h */,
-				849E1B171EA87488003C2D16 /* AppDelegate.m */,
-				849E1B1F1EA87488003C2D16 /* Assets.xcassets */,
-				0419E41E1F28508700C7C129 /* Common.h */,
-				0419E41F1F28508700C7C129 /* Common.m */,
-				849E1B241EA87488003C2D16 /* Info.plist */,
-				849E1B211EA87488003C2D16 /* LaunchScreen.storyboard */,
-				849E1B1C1EA87488003C2D16 /* Main.storyboard */,
-				0419E4211F2854AC00C7C129 /* Person.h */,
-				0419E4221F2854AC00C7C129 /* Person.m */,
-				0419E41B1F2848B200C7C129 /* PrintStart.h */,
-				0419E41C1F2848B200C7C129 /* PrintStart.m */,
+				0470895B1F29D436002CE252 /* Resources */,
+				047089571F29D06F002CE252 /* Common */,
+				047089581F29D07D002CE252 /* Screen */,
 				849E1B131EA87488003C2D16 /* Supporting Files */,
-				0419E4181F283F3600C7C129 /* ViewController.h */,
-				0419E4191F283F3600C7C129 /* ViewController.m */,
 			);
 			path = cai_cho_ios;
 			sourceTree = "<group>";
