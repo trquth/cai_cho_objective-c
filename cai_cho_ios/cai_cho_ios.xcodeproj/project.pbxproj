@@ -11,6 +11,7 @@
 		0419E41D1F2848B200C7C129 /* PrintStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419E41C1F2848B200C7C129 /* PrintStart.m */; };
 		0419E4201F28508700C7C129 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419E41F1F28508700C7C129 /* Common.m */; };
 		0419E4231F2854AC00C7C129 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419E4221F2854AC00C7C129 /* Person.m */; };
+		047089541F29C59F002CE252 /* sts.png in Resources */ = {isa = PBXBuildFile; fileRef = 047089531F29C59F002CE252 /* sts.png */; };
 		849E1B151EA87488003C2D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E1B141EA87488003C2D16 /* main.m */; };
 		849E1B181EA87488003C2D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E1B171EA87488003C2D16 /* AppDelegate.m */; };
 		849E1B1E1EA87488003C2D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E1B1C1EA87488003C2D16 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		0419E41F1F28508700C7C129 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		0419E4211F2854AC00C7C129 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0419E4221F2854AC00C7C129 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		047089531F29C59F002CE252 /* sts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sts.png; path = ../../../../../../Downloads/sts.png; sourceTree = "<group>"; };
 		849E1B101EA87488003C2D16 /* cai_cho_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cai_cho_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E1B141EA87488003C2D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849E1B161EA87488003C2D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		849E1B131EA87488003C2D16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				047089531F29C59F002CE252 /* sts.png */,
 				849E1B141EA87488003C2D16 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -156,6 +159,7 @@
 				849E1B231EA87488003C2D16 /* LaunchScreen.storyboard in Resources */,
 				849E1B201EA87488003C2D16 /* Assets.xcassets in Resources */,
 				849E1B1E1EA87488003C2D16 /* Main.storyboard in Resources */,
+				047089541F29C59F002CE252 /* sts.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

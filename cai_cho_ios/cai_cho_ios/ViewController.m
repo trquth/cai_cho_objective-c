@@ -75,4 +75,11 @@
         }
     }
 }
+- (IBAction)textFieldDoneEditing:(id)sender {
+}
+
+- (IBAction)sliderChanged:(id)sender {
+    UISlider* slider = (UISlider*) sender;
+    
+}
 @end
