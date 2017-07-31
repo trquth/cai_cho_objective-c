@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "NavigationViewAppDelegate.h"
+#import "CreditCountryNavigationAppDelegate.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([NavigationViewAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CreditCountryNavigationAppDelegate class]));
     }
 }

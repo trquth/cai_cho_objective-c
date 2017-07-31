@@ -24,6 +24,12 @@
 		0419E41D1F2848B200C7C129 /* PrintStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419E41C1F2848B200C7C129 /* PrintStart.m */; };
 		0419E4201F28508700C7C129 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419E41F1F28508700C7C129 /* Common.m */; };
 		0419E4231F2854AC00C7C129 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419E4221F2854AC00C7C129 /* Person.m */; };
+		043A79951F2EE15700FBBDFB /* CreditCountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A79931F2EE15700FBBDFB /* CreditCountryViewController.m */; };
+		043A79961F2EE15700FBBDFB /* CreditCountryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A79941F2EE15700FBBDFB /* CreditCountryViewController.xib */; };
+		043A799E1F2EE41200FBBDFB /* InputCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A799D1F2EE41200FBBDFB /* InputCountry.m */; };
+		043A79A01F2EE42500FBBDFB /* InputCountry.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A799F1F2EE42500FBBDFB /* InputCountry.xib */; };
+		043A79A31F2EE47C00FBBDFB /* CountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A79A21F2EE47C00FBBDFB /* CountryModel.m */; };
+		043A79A61F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A79A51F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m */; };
 		047089541F29C59F002CE252 /* sts.png in Resources */ = {isa = PBXBuildFile; fileRef = 047089531F29C59F002CE252 /* sts.png */; };
 		849E1B151EA87488003C2D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E1B141EA87488003C2D16 /* main.m */; };
 		849E1B181EA87488003C2D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E1B171EA87488003C2D16 /* AppDelegate.m */; };
@@ -61,6 +67,16 @@
 		0419E41F1F28508700C7C129 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		0419E4211F2854AC00C7C129 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0419E4221F2854AC00C7C129 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		043A79921F2EE15700FBBDFB /* CreditCountryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCountryViewController.h; sourceTree = "<group>"; };
+		043A79931F2EE15700FBBDFB /* CreditCountryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCountryViewController.m; sourceTree = "<group>"; };
+		043A79941F2EE15700FBBDFB /* CreditCountryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditCountryViewController.xib; sourceTree = "<group>"; };
+		043A799C1F2EE41200FBBDFB /* InputCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCountry.h; sourceTree = "<group>"; };
+		043A799D1F2EE41200FBBDFB /* InputCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCountry.m; sourceTree = "<group>"; };
+		043A799F1F2EE42500FBBDFB /* InputCountry.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputCountry.xib; sourceTree = "<group>"; };
+		043A79A11F2EE47C00FBBDFB /* CountryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryModel.h; sourceTree = "<group>"; };
+		043A79A21F2EE47C00FBBDFB /* CountryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryModel.m; sourceTree = "<group>"; };
+		043A79A41F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCountryNavigationAppDelegate.h; sourceTree = "<group>"; };
+		043A79A51F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCountryNavigationAppDelegate.m; sourceTree = "<group>"; };
 		047089531F29C59F002CE252 /* sts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sts.png; path = ../../../../../../Downloads/sts.png; sourceTree = "<group>"; };
 		849E1B101EA87488003C2D16 /* cai_cho_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cai_cho_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E1B141EA87488003C2D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +104,8 @@
 			children = (
 				041254CA1F2ADC1A0097C647 /* NavigationViewAppDelegate.h */,
 				041254CB1F2ADC1A0097C647 /* NavigationViewAppDelegate.m */,
+				043A79A41F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.h */,
+				043A79A51F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m */,
 			);
 			name = Navigation;
 			sourceTree = "<group>";
@@ -146,6 +164,37 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		043A798F1F2EDE6100FBBDFB /* CreditCountry */ = {
+			isa = PBXGroup;
+			children = (
+				043A79911F2EDE8700FBBDFB /* View */,
+				043A79901F2EDE7500FBBDFB /* Model */,
+				043A79921F2EE15700FBBDFB /* CreditCountryViewController.h */,
+				043A79931F2EE15700FBBDFB /* CreditCountryViewController.m */,
+				043A79941F2EE15700FBBDFB /* CreditCountryViewController.xib */,
+			);
+			name = CreditCountry;
+			sourceTree = "<group>";
+		};
+		043A79901F2EDE7500FBBDFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				043A79A11F2EE47C00FBBDFB /* CountryModel.h */,
+				043A79A21F2EE47C00FBBDFB /* CountryModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		043A79911F2EDE8700FBBDFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				043A799C1F2EE41200FBBDFB /* InputCountry.h */,
+				043A799D1F2EE41200FBBDFB /* InputCountry.m */,
+				043A799F1F2EE42500FBBDFB /* InputCountry.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		047089571F29D06F002CE252 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +205,7 @@
 		047089581F29D07D002CE252 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				043A798F1F2EDE6100FBBDFB /* CreditCountry */,
 				041254D91F2AE9A20097C647 /* Done */,
 				041254D31F2AE9690097C647 /* Detail */,
 				041254CD1F2ADCCD0097C647 /* Home */,
@@ -297,6 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043A79961F2EE15700FBBDFB /* CreditCountryViewController.xib in Resources */,
+				043A79A01F2EE42500FBBDFB /* InputCountry.xib in Resources */,
 				041254EA1F2B126F0097C647 /* ListCountryViewController.xib in Resources */,
 				849E1B231EA87488003C2D16 /* LaunchScreen.storyboard in Resources */,
 				041254D81F2AE9800097C647 /* DetailViewController.xib in Resources */,
@@ -317,7 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043A79951F2EE15700FBBDFB /* CreditCountryViewController.m in Sources */,
 				0419E4231F2854AC00C7C129 /* Person.m in Sources */,
+				043A79A61F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m in Sources */,
 				0419E41A1F283F3600C7C129 /* ViewController.m in Sources */,
 				041254D71F2AE9800097C647 /* DetailViewController.m in Sources */,
 				849E1B181EA87488003C2D16 /* AppDelegate.m in Sources */,
@@ -329,6 +383,8 @@
 				041254E41F2B0DF60097C647 /* Country.m in Sources */,
 				041254E91F2B126F0097C647 /* ListCountryViewController.m in Sources */,
 				849E1B151EA87488003C2D16 /* main.m in Sources */,
+				043A799E1F2EE41200FBBDFB /* InputCountry.m in Sources */,
+				043A79A31F2EE47C00FBBDFB /* CountryModel.m in Sources */,
 				041254D11F2ADCFE0097C647 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
