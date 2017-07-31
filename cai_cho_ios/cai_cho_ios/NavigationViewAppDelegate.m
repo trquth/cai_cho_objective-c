@@ -7,6 +7,7 @@
 //
 
 #import "NavigationViewAppDelegate.h"
+#import "ListCountryViewController.h"
 
 @implementation NavigationViewAppDelegate
 
@@ -14,20 +15,32 @@
 @synthesize homeViewController;
 
 -(BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    
+//    navigationController = [[UINavigationController alloc] init];
+//    [self.window addSubview:[self.navigationController view]];
+//    
+//    if(self.homeViewController == nil){
+//        HomeViewController *homeView = [[HomeViewController alloc]init];
+//        self.homeViewController = homeView;
+//    }
+//    
+//    [self.navigationController pushViewController:self.homeViewController animated:YES];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    self.window.rootViewController = navigationController;
+//    [self.window makeKeyAndVisible];
+//    return YES;
+    
+    //initialize the screen
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    navigationController = [[UINavigationController alloc] init];
-    self.window.rootViewController = navigationController;
-    [self.window addSubview:[self.navigationController view]];
+    //initialize your view controller
+    self.listContryController = [[ListCountryViewController alloc]            initWithNibName:@"ListCountryViewController" bundle:nil];
     
-    if(self.homeViewController == nil){
-        HomeViewController *homeView = [[HomeViewController alloc]init];
-        self.homeViewController = homeView;
-    }
-    
-    [self.navigationController pushViewController:self.homeViewController animated:YES];
-    self.window.backgroundColor = [UIColor blueColor];
-    
+    //make the new view controller as your root view controller
+    self.window.rootViewController = self.listContryController;
+    //set background color and make your window visible
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
     

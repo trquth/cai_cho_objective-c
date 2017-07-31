@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NavigationViewAppDelegate.h"
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
