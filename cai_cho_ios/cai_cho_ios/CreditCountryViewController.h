@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Country.h"
+#import "Country_Model.h"
 #import "InputCountry.h"
 
 @interface CreditCountryViewController : UIViewController<UITextFieldDelegate>

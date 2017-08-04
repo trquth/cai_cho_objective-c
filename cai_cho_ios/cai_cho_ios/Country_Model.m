@@ -6,9 +6,9 @@
 //  Copyright © 2017 cai_cho. All rights reserved.
 //
 
-#import "Country.h"
+#import "Country_Model.h"
 
-@implementation Country
+@implementation Country_Model
 
 @synthesize code;
 @synthesize name;

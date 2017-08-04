@@ -1,13 +1,13 @@
 //
-//  ListCountryViewController.h
+//  CountryCRUDModel.m
 //  cai_cho_ios
 //
 //  Created by mac on 8/1/17.
 //  Copyright © 2017 cai_cho. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CountryCRUDModel.h"
 
-@interface ListCountryViewController : UIViewController
+@implementation CountryCRUDModel
 
 @end

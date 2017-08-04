@@ -10,9 +10,10 @@
 #import "AppDelegate.h"
 #import "NavigationViewAppDelegate.h"
 #import "CreditCountryNavigationAppDelegate.h"
+#import "CRUDNavigationAppDetegate.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CreditCountryNavigationAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CRUDNavigationAppDetegate class]));
     }
 }

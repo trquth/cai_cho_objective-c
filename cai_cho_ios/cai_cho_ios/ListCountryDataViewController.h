@@ -1,5 +1,5 @@
 //
-//  ListCountryViewController.h
+//  ListCountryDataViewController.h
 //  cai_cho_ios
 //
 //  Created by mac on 8/1/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListCountryViewController : UIViewController
+@interface ListCountryDataViewController : UIViewController
 
 @end

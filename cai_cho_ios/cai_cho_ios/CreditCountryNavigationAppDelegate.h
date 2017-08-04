@@ -6,7 +6,7 @@
 //  Copyright © 2017 cai_cho. All rights reserved.
 //
 
-#import "AppDelegate.h";
+#import "AppDelegate.h"
 @class CreditCountryViewController;
 
 @interface CreditCountryNavigationAppDelegate : UIResponder<UIApplicationDelegate>

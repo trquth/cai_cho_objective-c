@@ -1,18 +1,18 @@
 //
-//  ListCountryViewController.m
+//  SecondeViewViewController.m
 //  cai_cho_ios
 //
-//  Created by mac on 8/1/17.
+//  Created by mac on 7/31/17.
 //  Copyright © 2017 cai_cho. All rights reserved.
 //
 
-#import "ListCountryViewController.h"
+#import "SecondeViewViewController.h"
 
-@interface ListCountryViewController ()
+@interface SecondeViewViewController ()
 
 @end
 
-@implementation ListCountryViewController
+@implementation SecondeViewViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -13,6 +13,7 @@
     self = [super initWithFrame :frame];
     if(self) {
        self =  [[NSBundle mainBundle] loadNibNamed:@"InputCountry" owner:self options:nil].firstObject;
+        // xong roi nhe!
     }
     return  self;
 }

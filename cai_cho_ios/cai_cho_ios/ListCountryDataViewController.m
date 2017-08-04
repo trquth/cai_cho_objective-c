@@ -1,18 +1,18 @@
 //
-//  ListCountryViewController.m
+//  ListCountryDataViewController.m
 //  cai_cho_ios
 //
 //  Created by mac on 8/1/17.
 //  Copyright © 2017 cai_cho. All rights reserved.
 //
 
-#import "ListCountryViewController.h"
+#import "ListCountryDataViewController.h"
 
-@interface ListCountryViewController ()
+@interface ListCountryDataViewController ()
 
 @end
 
-@implementation ListCountryViewController
+@implementation ListCountryDataViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

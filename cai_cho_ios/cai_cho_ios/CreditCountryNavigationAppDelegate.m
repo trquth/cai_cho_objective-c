@@ -19,6 +19,8 @@
     self.window.rootViewController = self.creditCountryController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSLog(@"%@",paths.firstObject);
     return  YES;
 }
 
