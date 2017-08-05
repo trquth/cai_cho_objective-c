@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
+#import "CountryItemTableViewCell.h"
+@class  CreditCountryDataViewController;
 
-@interface ListCountryDataViewController : UIViewController
+@interface ListCountryDataViewController : UIViewController<UITableViewDelegate,
+    UITableViewDataSource, NSFetchedResultsControllerDelegate>
+
+@property (weak, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, strong) UITableView *countryTableView;
+@property (nonatomic, strong) NSFetchedResultsController *countryFRC;
+@property (nonatomic, strong) CreditCountryDataViewController *creditCountryDataController;
 
 @end

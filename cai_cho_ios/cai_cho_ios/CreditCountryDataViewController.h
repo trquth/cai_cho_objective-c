@@ -17,4 +17,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *continentField;
 @property (weak, nonatomic) IBOutlet UITextField *populationField;
 
+@property (weak, nonatomic) NSManagedObjectContext *managedObjectContext;
+
 @end

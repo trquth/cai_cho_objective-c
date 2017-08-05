@@ -10,11 +10,11 @@
 #import "CRUDNavigationAppDetegate.h"
 
 @interface CreditCountryDataViewController ()
-@property ( nonatomic ) NSManagedObjectContext *managedObjectContext;
 @end
 
 @implementation CreditCountryDataViewController
 
+@synthesize managedObjectContext;
 @synthesize codeField, nameField, continentField, populationField;
 
 

@@ -28,6 +28,8 @@
 		0419E41D1F2848B200C7C129 /* PrintStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419E41C1F2848B200C7C129 /* PrintStart.m */; };
 		0419E4201F28508700C7C129 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419E41F1F28508700C7C129 /* Common.m */; };
 		0419E4231F2854AC00C7C129 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419E4221F2854AC00C7C129 /* Person.m */; };
+		042257071F34C13200F9BC15 /* CountryItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 042257051F34C13200F9BC15 /* CountryItemTableViewCell.m */; };
+		042257081F34C13200F9BC15 /* CountryItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042257061F34C13200F9BC15 /* CountryItemTableViewCell.xib */; };
 		0435DB821F344E8500BA7618 /* CountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435DB811F344E8500BA7618 /* CountryModel.m */; };
 		0435DB861F344FC200BA7618 /* CountryDb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0435DB841F344FC200BA7618 /* CountryDb.xcdatamodeld */; };
 		0435DB8B1F34502900BA7618 /* Country+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0435DB881F34502900BA7618 /* Country+CoreDataClass.m */; };
@@ -81,6 +83,9 @@
 		0419E41F1F28508700C7C129 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		0419E4211F2854AC00C7C129 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0419E4221F2854AC00C7C129 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		042257041F34C13200F9BC15 /* CountryItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryItemTableViewCell.h; sourceTree = "<group>"; };
+		042257051F34C13200F9BC15 /* CountryItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryItemTableViewCell.m; sourceTree = "<group>"; };
+		042257061F34C13200F9BC15 /* CountryItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryItemTableViewCell.xib; sourceTree = "<group>"; };
 		0435DB801F344E8500BA7618 /* CountryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryModel.h; sourceTree = "<group>"; };
 		0435DB811F344E8500BA7618 /* CountryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryModel.m; sourceTree = "<group>"; };
 		0435DB851F344FC200BA7618 /* CountryDb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CountryDb.xcdatamodel; sourceTree = "<group>"; };
@@ -123,6 +128,7 @@
 		040A1DB61F302D0B00814D6C /* CRUD */ = {
 			isa = PBXGroup;
 			children = (
+				042257031F34C0C900F9BC15 /* View */,
 				040A1DC41F302E1800814D6C /* Model */,
 				040A1DC51F30335100814D6C /* ListCountryDataViewController.h */,
 				040A1DC61F30335100814D6C /* ListCountryDataViewController.m */,
@@ -207,6 +213,16 @@
 				041254EB1F2B213D0097C647 /* CountryTableViewCell.h */,
 				041254EC1F2B213D0097C647 /* CountryTableViewCell.m */,
 				041254ED1F2B213D0097C647 /* CountryTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		042257031F34C0C900F9BC15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042257041F34C13200F9BC15 /* CountryItemTableViewCell.h */,
+				042257051F34C13200F9BC15 /* CountryItemTableViewCell.m */,
+				042257061F34C13200F9BC15 /* CountryItemTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -422,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043A79961F2EE15700FBBDFB /* CreditCountryViewController.xib in Resources */,
+				042257081F34C13200F9BC15 /* CountryItemTableViewCell.xib in Resources */,
 				043A79A01F2EE42500FBBDFB /* InputCountry.xib in Resources */,
 				041254EA1F2B126F0097C647 /* ListCountryViewController.xib in Resources */,
 				849E1B231EA87488003C2D16 /* LaunchScreen.storyboard in Resources */,
@@ -448,6 +465,7 @@
 				043A79951F2EE15700FBBDFB /* CreditCountryViewController.m in Sources */,
 				0419E4231F2854AC00C7C129 /* Person.m in Sources */,
 				043A79A61F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m in Sources */,
+				042257071F34C13200F9BC15 /* CountryItemTableViewCell.m in Sources */,
 				0419E41A1F283F3600C7C129 /* ViewController.m in Sources */,
 				0435DB8C1F34502900BA7618 /* Country+CoreDataProperties.m in Sources */,
 				0435DB861F344FC200BA7618 /* CountryDb.xcdatamodeld in Sources */,
