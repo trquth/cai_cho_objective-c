@@ -65,5 +65,25 @@ NSString* const dbName = @"demo.db";
     }
     return success;
 }
+//Get a list of all our employees
+-(NSMutableArray *)getEmployees{
+    NSMutableArray* listEmployees = [NSMutableArray new];
+    const char *dbpath = [dbPath UTF8String];
+    sqlite3_stmt *statement;
+    if (sqlite3_open(dbpath, &employeeSqlite) == SQLITE_OK) {
+        while (sqlite3_step(statement) == SQLITE_ROW) {
+            Employee* employee = [Employee new];
+            employee.Id = sqlite3_column_int(statement, 0);
+            employee.employeeName = [NSString stringWithUTF8String:(char *) sqlite3_column_int(statement, 1)] ;
+            employee.department = [NSString stringWithUTF8String:(char *)sqlite3_column_int(statement, 2)] ;
+            employee.age = sqlite3_column_int(statement, 3);
+            [listEmployees addObject:employee];
+            
+        }
+        sqlite3_finalize(statement);
+    }
+    sqlite3_close(statement);
+    return listEmployees;
+}
 
 @end

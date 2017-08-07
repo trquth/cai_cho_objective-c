@@ -19,5 +19,6 @@
 
 -(void) copyDataIfNotExisting;
 -(BOOL) saveEmployee: (Employee*) employee;
+-(NSMutableArray*) getEmployees;
 
 @end
