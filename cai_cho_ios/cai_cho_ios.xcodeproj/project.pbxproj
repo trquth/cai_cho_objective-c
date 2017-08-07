@@ -41,6 +41,13 @@
 		043A79A01F2EE42500FBBDFB /* InputCountry.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043A799F1F2EE42500FBBDFB /* InputCountry.xib */; };
 		043A79A61F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043A79A51F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m */; };
 		047089541F29C59F002CE252 /* sts.png in Resources */ = {isa = PBXBuildFile; fileRef = 047089531F29C59F002CE252 /* sts.png */; };
+		04AC8A4A1F38095B0029AB33 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC8A491F38095B0029AB33 /* Employee.m */; };
+		04AC8A4E1F380CF50029AB33 /* SqliteNavigationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC8A4D1F380CF50029AB33 /* SqliteNavigationAppDelegate.m */; };
+		04AC8A571F38234C0029AB33 /* CreditEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC8A551F38234C0029AB33 /* CreditEmployeeViewController.m */; };
+		04AC8A581F38234C0029AB33 /* CreditEmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04AC8A561F38234C0029AB33 /* CreditEmployeeViewController.xib */; };
+		04AC8A5B1F3825FA0029AB33 /* EmployeeDbUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AC8A5A1F3825FA0029AB33 /* EmployeeDbUtil.m */; };
+		04AC8A5E1F3826440029AB33 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AC8A5D1F3826440029AB33 /* libsqlite3.tbd */; };
+		04AC8A601F385AAC0029AB33 /* demo.db in Resources */ = {isa = PBXBuildFile; fileRef = 04AC8A5F1F385AAC0029AB33 /* demo.db */; };
 		849E1B151EA87488003C2D16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E1B141EA87488003C2D16 /* main.m */; };
 		849E1B181EA87488003C2D16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849E1B171EA87488003C2D16 /* AppDelegate.m */; };
 		849E1B1E1EA87488003C2D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849E1B1C1EA87488003C2D16 /* Main.storyboard */; };
@@ -104,6 +111,17 @@
 		043A79A41F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditCountryNavigationAppDelegate.h; sourceTree = "<group>"; };
 		043A79A51F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditCountryNavigationAppDelegate.m; sourceTree = "<group>"; };
 		047089531F29C59F002CE252 /* sts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sts.png; path = ../../../../../../Downloads/sts.png; sourceTree = "<group>"; };
+		04AC8A481F38095B0029AB33 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		04AC8A491F38095B0029AB33 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		04AC8A4C1F380CF50029AB33 /* SqliteNavigationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteNavigationAppDelegate.h; sourceTree = "<group>"; };
+		04AC8A4D1F380CF50029AB33 /* SqliteNavigationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteNavigationAppDelegate.m; sourceTree = "<group>"; };
+		04AC8A541F38234C0029AB33 /* CreditEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditEmployeeViewController.h; sourceTree = "<group>"; };
+		04AC8A551F38234C0029AB33 /* CreditEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditEmployeeViewController.m; sourceTree = "<group>"; };
+		04AC8A561F38234C0029AB33 /* CreditEmployeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditEmployeeViewController.xib; sourceTree = "<group>"; };
+		04AC8A591F3825FA0029AB33 /* EmployeeDbUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDbUtil.h; sourceTree = "<group>"; };
+		04AC8A5A1F3825FA0029AB33 /* EmployeeDbUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDbUtil.m; sourceTree = "<group>"; };
+		04AC8A5D1F3826440029AB33 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		04AC8A5F1F385AAC0029AB33 /* demo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.db; sourceTree = "<group>"; };
 		849E1B101EA87488003C2D16 /* cai_cho_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cai_cho_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849E1B141EA87488003C2D16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849E1B161EA87488003C2D16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AC8A5E1F3826440029AB33 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +178,8 @@
 				040A1DD51F3055E700814D6C /* CRUDNavigationAppDetegate.m */,
 				043A79A41F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.h */,
 				043A79A51F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m */,
+				04AC8A4C1F380CF50029AB33 /* SqliteNavigationAppDelegate.h */,
+				04AC8A4D1F380CF50029AB33 /* SqliteNavigationAppDelegate.m */,
 			);
 			name = Navigation;
 			sourceTree = "<group>";
@@ -292,6 +313,7 @@
 		047089581F29D07D002CE252 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				04AC8A461F3809140029AB33 /* Sqlite */,
 				040A1DB61F302D0B00814D6C /* CRUD */,
 				043A798F1F2EDE6100FBBDFB /* CreditCountry */,
 				041254D91F2AE9A20097C647 /* Done */,
@@ -339,11 +361,82 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		04AC8A3F1F3807150029AB33 /* SqliteDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				04AC8A5F1F385AAC0029AB33 /* demo.db */,
+			);
+			name = SqliteDatabase;
+			sourceTree = "<group>";
+		};
+		04AC8A461F3809140029AB33 /* Sqlite */ = {
+			isa = PBXGroup;
+			children = (
+				04AC8A521F3822610029AB33 /* Controllers */,
+				04AC8A4B1F380A400029AB33 /* Utilities */,
+				04AC8A471F3809410029AB33 /* Model */,
+			);
+			name = Sqlite;
+			sourceTree = "<group>";
+		};
+		04AC8A471F3809410029AB33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04AC8A481F38095B0029AB33 /* Employee.h */,
+				04AC8A491F38095B0029AB33 /* Employee.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04AC8A4B1F380A400029AB33 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				04AC8A591F3825FA0029AB33 /* EmployeeDbUtil.h */,
+				04AC8A5A1F3825FA0029AB33 /* EmployeeDbUtil.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		04AC8A511F3822550029AB33 /* CreditEmployee */ = {
+			isa = PBXGroup;
+			children = (
+				04AC8A541F38234C0029AB33 /* CreditEmployeeViewController.h */,
+				04AC8A551F38234C0029AB33 /* CreditEmployeeViewController.m */,
+				04AC8A561F38234C0029AB33 /* CreditEmployeeViewController.xib */,
+			);
+			name = CreditEmployee;
+			sourceTree = "<group>";
+		};
+		04AC8A521F3822610029AB33 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04AC8A531F3822970029AB33 /* ListEmployees */,
+				04AC8A511F3822550029AB33 /* CreditEmployee */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		04AC8A531F3822970029AB33 /* ListEmployees */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ListEmployees;
+			sourceTree = "<group>";
+		};
+		04AC8A5C1F3826430029AB33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04AC8A5D1F3826440029AB33 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		849E1B071EA87488003C2D16 = {
 			isa = PBXGroup;
 			children = (
 				849E1B121EA87488003C2D16 /* cai_cho_ios */,
 				849E1B111EA87488003C2D16 /* Products */,
+				04AC8A5C1F3826430029AB33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -358,6 +451,7 @@
 		849E1B121EA87488003C2D16 /* cai_cho_ios */ = {
 			isa = PBXGroup;
 			children = (
+				04AC8A3F1F3807150029AB33 /* SqliteDatabase */,
 				0435DB831F344F9300BA7618 /* Database */,
 				041254C91F2ADBCC0097C647 /* Navigation */,
 				0435DB731F344B3900BA7618 /* Database */,
@@ -443,6 +537,7 @@
 				041254EA1F2B126F0097C647 /* ListCountryViewController.xib in Resources */,
 				849E1B231EA87488003C2D16 /* LaunchScreen.storyboard in Resources */,
 				041254D81F2AE9800097C647 /* DetailViewController.xib in Resources */,
+				04AC8A601F385AAC0029AB33 /* demo.db in Resources */,
 				041254DE1F2AE9B40097C647 /* DoneViewController.xib in Resources */,
 				040A1DCE1F30336B00814D6C /* CreditCountryDataViewController.xib in Resources */,
 				041254EF1F2B213D0097C647 /* CountryTableViewCell.xib in Resources */,
@@ -451,6 +546,7 @@
 				041254D21F2ADCFE0097C647 /* HomeViewController.xib in Resources */,
 				040A1DC91F30335100814D6C /* ListCountryDataViewController.xib in Resources */,
 				849E1B1E1EA87488003C2D16 /* Main.storyboard in Resources */,
+				04AC8A581F38234C0029AB33 /* CreditEmployeeViewController.xib in Resources */,
 				047089541F29C59F002CE252 /* sts.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +562,7 @@
 				0419E4231F2854AC00C7C129 /* Person.m in Sources */,
 				043A79A61F2EEDE700FBBDFB /* CreditCountryNavigationAppDelegate.m in Sources */,
 				042257071F34C13200F9BC15 /* CountryItemTableViewCell.m in Sources */,
+				04AC8A571F38234C0029AB33 /* CreditEmployeeViewController.m in Sources */,
 				0419E41A1F283F3600C7C129 /* ViewController.m in Sources */,
 				0435DB8C1F34502900BA7618 /* Country+CoreDataProperties.m in Sources */,
 				0435DB861F344FC200BA7618 /* CountryDb.xcdatamodeld in Sources */,
@@ -477,11 +574,14 @@
 				0435DB8B1F34502900BA7618 /* Country+CoreDataClass.m in Sources */,
 				041254DD1F2AE9B40097C647 /* DoneViewController.m in Sources */,
 				040A1DC81F30335100814D6C /* ListCountryDataViewController.m in Sources */,
+				04AC8A4E1F380CF50029AB33 /* SqliteNavigationAppDelegate.m in Sources */,
+				04AC8A4A1F38095B0029AB33 /* Employee.m in Sources */,
 				040A1DCD1F30336B00814D6C /* CreditCountryDataViewController.m in Sources */,
 				041254EE1F2B213D0097C647 /* CountryTableViewCell.m in Sources */,
 				0419E4201F28508700C7C129 /* Common.m in Sources */,
 				0419E41D1F2848B200C7C129 /* PrintStart.m in Sources */,
 				041254E41F2B0DF60097C647 /* Country_Model.m in Sources */,
+				04AC8A5B1F3825FA0029AB33 /* EmployeeDbUtil.m in Sources */,
 				041254E91F2B126F0097C647 /* ListCountryViewController.m in Sources */,
 				849E1B151EA87488003C2D16 /* main.m in Sources */,
 				043A799E1F2EE41200FBBDFB /* InputCountry.m in Sources */,
