@@ -14,6 +14,7 @@
 #import "SqliteNavigationAppDelegate.h"
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        //return UIApplicationMain(argc, argv, nil, NSStringFromClass([CRUDNavigationAppDetegate class]));
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([SqliteNavigationAppDelegate class]));
     }
 }

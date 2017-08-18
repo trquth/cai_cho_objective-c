@@ -14,4 +14,5 @@
 @property (weak, nonatomic) IBOutlet UILabel *continentLbl;
 @property (weak, nonatomic) IBOutlet UILabel *populationLbl;
 
+@property (nonatomic) NSString *abc;
 @end
