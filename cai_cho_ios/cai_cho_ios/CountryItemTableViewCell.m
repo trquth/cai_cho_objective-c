@@ -12,10 +12,10 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    self.codeLbl.backgroundColor = [UIColor redColor];
-    [self.codeLbl setBackgroundColor:UIColor.redColor];
-    UIColor *abc = _.codeLbl.backgroundColor;
-    UIColor *abc1 = [self.codeLbl backgroundColor];
+//    self.codeLbl.backgroundColor = [UIColor redColor];
+//    [self.codeLbl setBackgroundColor:UIColor.redColor];
+//    UIColor *abc = _.codeLbl.backgroundColor;
+//    UIColor *abc1 = [self.codeLbl backgroundColor];
     // Initialization code
 }
 

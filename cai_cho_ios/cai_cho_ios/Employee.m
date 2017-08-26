@@ -12,4 +12,15 @@
 
 @synthesize Id, employeeName, department, age;
 
+- (id)initWithId:(NSInteger *)Id withName:(NSString *)name withDepartment:(NSString *)department withAge:(NSInteger *)age{
+    self = [super init];
+    if(self){
+        self.Id = Id;
+        self.employeeName = name;
+        self.department = department;
+        self.age = age;
+    }
+    return  self;
+}
+
 @end

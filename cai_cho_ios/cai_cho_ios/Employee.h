@@ -15,4 +15,7 @@
 @property (strong, nonatomic) NSString* department;
 @property (nonatomic) NSInteger age;
 
+-(id) initWithId: (NSInteger *) Id withName: (NSString *) name
+withDepartment:(NSString*) department withAge: (NSInteger *) age;
+
 @end
